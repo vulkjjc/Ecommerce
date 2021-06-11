@@ -1,0 +1,43 @@
+#banner_image{
+    padding-top:75px;
+    padding-bottom:50px;
+    text-align:center;
+    color:#f8f8f8;
+    background: url(intro-bg_1.jpg)no-repeat center center;
+    background-size: cover;
+}
+#inner_banner_image{
+    padding-top:35%;
+    width:80%;
+    margin:auto;
+}
+.signup{
+    float:right;
+    font-size:14px;
+    height:50px;
+    padding:15px 15px;
+    font-size:16px;
+    font-weight: bold;
+}
+.logo{
+    float:left;
+    font-size:14px;
+    height:50px;
+    padding:15px 15px;
+    font-size:20px;
+    font-weight:bold;
+}
+#banner_content{
+   position: relative;
+   padding-top:6%;
+   padding: bottom 6%;
+   margin-top:12%;
+   background-color: rgba(0,0,0,0.7);
+   max-width: 660px;
+}
+footer{
+    padding:10px 0;
+    background-color:#101010;
+    bottom:0;
+    width:100%;
+}

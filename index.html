@@ -1,0 +1,59 @@
+<?php
+   if(isset($_SESSION["email"])){
+       header("location:products.php")
+   }
+   require "./includes/common.php";
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="Lifestyle Store.css">
+    <title>Lifestyle Store</title>
+</head>
+<body>
+        <div class="navbar navbar-inverse navbar-fixed-top">
+           <div class="logo">
+            <a href="products.html">Lifestyle Store</a>
+           </div>
+           <div class="signup">
+               <a href="contact.html" float="right"><span class="glyphicon glyphicon-phone"></span> Contact Us</a>
+           </div>
+           <div class="signup">
+               <a href="about.html" float="right"><span class="glyphicon glyphicon-tasks"></span >About Us</a>
+           </div>
+            <div class="signup">
+             <a href="signup.html" float="right" ><span class="glyphicon glyphicon-user"></span>Sign up</a>
+            </div>
+            <div class="signup">
+             <a href="login.html" float="right"><span class="glyphicon glyphicon-log-in" ></span>Login</a>
+            </div>
+        </div>
+
+            <div id="banner_image">
+                <div id="inner_banner_image">
+                
+            <div class="container">
+                <div id="bannner_content">
+                    <a href="products.html" class="btn btn-danger btn-lg-active">Shop Now</a>
+                </div>
+            </div>
+            </div>
+          </div>
+         <footer class=" navbar navbar-fixed-bottom">
+              <div class="container">
+                  <center>
+                      <p>
+                          <strong>"Copyright &copy; Lifestyle Store .All Rights Reserved</strong>
+                           and <strong>Contact us:+91 9000000000"</strong>
+
+                      </p>
+                  </center>
+              </div>
+          </footer>
+        
+</body>
+</html>
